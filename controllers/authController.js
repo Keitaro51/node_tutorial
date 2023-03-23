@@ -39,8 +39,7 @@ const handleLogin = async (req, res) => {
     res.cookie('jwt', refreshToken, {
       httpOnly: true,
       sameSite: 'None',
-      //secure: true,
-      //FIXME secure disabled for thunderclient or postman on refresh route. Enable for chrome and production
+      secure: true, //secure disabled for thunderclient or postman on refresh route. Enable for chrome and production
       maxAge: 24 * 60 * 60 * 1000,
     })
     res.json({accessToken}) //store in memory in frontend (not localstorage or js cookie)
