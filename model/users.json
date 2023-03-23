@@ -1,0 +1,20 @@
+[
+  {
+    "username": "Rom1",
+    "password": "$2b$10$QxQ2Od9PvvqatkbUyA4tSuJmcat5JjP7wU7sgtd62tyG5GQel1k1m",
+    "roles": {"User": 2023},
+    "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IlJvbTEiLCJpYXQiOjE2Nzk1MDE1MDEsImV4cCI6MTY3OTU4NzkwMX0.bQD6c8ByeVFDzC0aPivjvneJbPg8YEgvYKu7Rrf_ASw"
+  },
+  {
+    "username": "Rom2",
+    "password": "$2b$10$CIbDEEaX5v5sypIaY5IPRuAroEof0UgSlccrqAsoKpXZ4UxfPycRq",
+    "roles": {"User": 2023, "Editor": 1983},
+    "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IlJvbTIiLCJpYXQiOjE2Nzk1MDE1MTUsImV4cCI6MTY3OTU4NzkxNX0.qz3SXg6Smg3j_PH_tByYlDsG1SsFvNQcqQcJRB-IVhk"
+  },
+  {
+    "username": "Rom3",
+    "password": "$2b$10$PT4XKuAaevEA.i/YpNlHDu.h6YQVbAlDPapWyuAE9uKsD1WqMX0Ii",
+    "roles": {"User": 2023, "Editor": 1983, "Admin": 5150},
+    "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IlJvbTMiLCJpYXQiOjE2Nzk1NjAwMDIsImV4cCI6MTY3OTY0NjQwMn0.KYVwT9yhg2UpLlUK3VpLDsyQaM8b2c_wF95tZzX8NVU"
+  }
+]

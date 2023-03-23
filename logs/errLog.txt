@@ -1,0 +1,31 @@
+20230314	17:39:34	118a732e-660f-40d7-917c-28da5b1c0072	Error: Not allowed by CORS
+20230314	17:39:56	6f536d05-6224-4bfd-94e1-0665a6c211d8	Error: Not allowed by CORS
+20230314	17:41:01	6e92e70a-644a-4f67-bcc6-e856efe7050e	Error: Not allowed by CORS
+20230320	14:55:25	89763584-2a9f-4a9e-b56b-11efeafb845e	SyntaxError: Unexpected token ' in JSON at position 1
+20230320	14:55:36	3269c527-c4a7-4392-9f6e-5ba95c9fe70a	SyntaxError: Unexpected token ' in JSON at position 1
+20230320	14:55:42	1258922c-a89f-4dd0-b544-9f5a3d14497d	SyntaxError: Unexpected token ' in JSON at position 1
+20230320	14:55:49	31648a62-98f3-4dc2-8373-58bf6fee6bfe	SyntaxError: Unexpected token ' in JSON at position 8
+20230321	09:41:59	df755765-b8ac-453e-b8da-07b2fa5f7c4b	SyntaxError: Unexpected token o in JSON at position 1
+20230321	09:42:19	23252456-dce3-4065-8aa6-0be562de9625	SyntaxError: Unexpected token o in JSON at position 1
+20230321	09:42:48	84849cc7-477c-4e28-ba7e-ca60a7ff2c41	SyntaxError: Unexpected token o in JSON at position 1
+20230321	14:26:15	19655b10-c855-438f-a187-df569f5f3085	TypeError: allowedOrigins.includes is not a function
+20230321	14:26:49	a5da7828-1150-4195-94c5-3c3fd5216af5	TypeError: allowedOrigins.includes is not a function
+20230321	14:27:11	4f83080b-7351-470a-b95e-9c7ec709e793	TypeError: allowedOrigins.includes is not a function
+20230321	14:27:18	f1d5d1c9-4b38-4ce2-baec-c7f1a0e13ae8	TypeError: allowedOrigins.includes is not a function
+20230321	14:27:50	7347483c-cc39-4450-b7b3-04331a09e40e	TypeError: allowedOrigins.includes is not a function
+20230321	14:28:23	e8e16c53-8db8-4ee5-9392-a33c48449b8c	TypeError: allowedOrigins.includes is not a function
+20230321	14:29:02	b925b9c2-e48c-4be4-871b-1a64d2979418	TypeError: allowedOrigins.includes is not a function
+20230321	14:29:06	210e49b2-a089-459e-8067-9520aa21c117	TypeError: allowedOrigins.includes is not a function
+20230321	14:29:07	45d6005c-1efd-4df0-be9a-2f45ebc59661	TypeError: allowedOrigins.includes is not a function
+20230321	14:30:08	c56e4526-6d20-413b-8ece-030b997dfc9f	TypeError: allowedOrigins.includes is not a function
+20230321	14:40:06	64e50861-0588-4a68-8d86-13c99aa30c2e	Error: Not allowed by CORS
+20230321	14:44:25	f19302b3-32e5-45ef-a280-a2735d007b34	Error: Not allowed by CORS
+20230321	14:49:08	75c737f1-c14a-44a4-a1df-20bf3323a4bc	Error: Not allowed by CORS
+20230321	14:50:08	8b94c703-40a5-48b0-89fd-d233117c54d9	Error: Not allowed by CORS
+20230321	14:50:31	75cd59c1-6395-44bc-ac55-b3dc68235fdd	Error: Not allowed by CORS
+20230321	14:55:31	63c93441-9b12-4cf6-b9fa-781f9b13c0eb	Error: Not allowed by CORS
+20230321	14:57:20	dc00dc12-f375-4459-96f6-e222b82f4e21	Error: Not allowed by CORS
+20230321	14:57:40	bbda01e4-d66b-4446-8b47-6551e4c6e3b7	Error: Not allowed by CORS
+20230321	15:02:03	00656e74-c9d1-4c07-9b2a-7b24a008dbf4	Error: Not allowed by CORS
+20230321	15:02:35	f87776f7-fb8d-4bfd-8cd4-7e7d26a8bd74	Error: Not allowed by CORS
+20230322	14:13:17	f76d779f-bd84-425a-af28-6a66371eb71c	Error: Not allowed by CORS
