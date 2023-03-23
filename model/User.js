@@ -9,7 +9,7 @@ const userSchema = new Schema({
     Editor: Number, //every user as user role by default but no all of them are editors or admin
     Admin: Number,
   },
-  refreshToken: String, //shortcut for {type:String} when no nested object
+  refreshToken: [String], //shortcut for {type:String} when no nested object
 })
 //
 module.exports = mongoose.model('User', userSchema)
