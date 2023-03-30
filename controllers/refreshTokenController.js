@@ -20,6 +20,7 @@ const handleRefreshToken = async (req, res) => {
       process.env.REFRESH_TOKEN_SECRET,
       async (err, decoded) => {
         if (err) return res.sendStatus(403) // Forbidden. Token can't be decrypt, essentially because expired
+        console.log('attempted refresh reuse')
         const hackedUser = await User.findOne({
           username: decoded.username,
         }).exec()
@@ -41,14 +42,17 @@ const handleRefreshToken = async (req, res) => {
     process.env.REFRESH_TOKEN_SECRET,
     async (err, decoded) => {
       if (err) {
+        console.log('expired token')
         foundUser.refreshToken = [...newRefreshTokenArray]
         const result = await foundUser.save()
+        console.log(result)
       }
       if (err || foundUser.username !== decoded.username)
         return res.sendStatus(403)
 
       // refreshToken exist and is still valid
       const roles = Object.values(foundUser.roles)
+
       const accessToken = jwt.sign(
         {
           UserInfo: {
@@ -71,6 +75,7 @@ const handleRefreshToken = async (req, res) => {
 
       foundUser.refreshToken = [...newRefreshTokenArray, newRefreshToken]
       const result = await foundUser.save()
+      console.log(result)
       res.cookie('jwt', newRefreshToken, {
         httpOnly: true,
         sameSite: 'None',
